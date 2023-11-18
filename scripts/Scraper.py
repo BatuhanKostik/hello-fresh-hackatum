@@ -29,15 +29,26 @@ class Scraper:
 
     # 1: Recipe Scraper
     def soup_to_recipe(self, soup):
-        # Find all elements with class="sc-a6821923-0 kOxEZP"
-        grid_recipe = soup.find_all("div", {"class": "sc-a6821923-0 KGVMo"})
 
-        # Extract text from each paragraph
-        ingredient_texts = [p.get_text(strip=True) for p in soup.find_all('p', class_='sc-a6821923-0 KGVMo')]
+        # Find the div with the specified class
+        description_div = soup.find('div', class_='sc-a6821923-0 jeetYO')
+        recipe_title = description_div.find('h1').get_text(strip=True)
+        recipe_sub_title = description_div.find('h2').get_text(strip=True)
+        print("H1:", recipe_title)
+        print("H2:", recipe_sub_title)
 
-        # Print the extracted text
-        for ingredient in ingredient_texts:
-            print(ingredient)
+        description_div = soup.find('div', class_='sc-a6821923-0 kVUALj')
+        description = description_div.find('p').get_text(strip=True)
+        print("Description", description)
+
+        # Find the div with the specified class
+        tags_div = soup.find('div', class_='sc-a6821923-0 jCgtKL')
+        tags = [tag.get_text(strip=True) for tag in tags_div.find_all('span', class_='sc-a6821923-0 fivcnB')]
+        print("Tags:", tags)
+
+
+
+
 
     # 3: Ingredients Scraper
     def soup_to_ingredient(self, soup):
@@ -60,7 +71,7 @@ class Scraper:
 
 
 
-scrape = Scraper("https://www.hellofresh.de/recipes/balsamico-linsen-salat-mit-hahnchenbrust-64df2a75552e10127649f25f")
+scrape = Scraper("https://www.hellofresh.de/recipes/couscous-mit-dukkah-gemuse-and-hirtenkase-thermomix-650819fe270f68660e1ac70b")
 soup = scrape.url_to_soup()
-scrape.soup_to_ingredient(soup)
+scrape.soup_to_recipe(soup)
 
