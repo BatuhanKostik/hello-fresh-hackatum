@@ -30,7 +30,7 @@ class Scraper:
     # 1: Recipe Scraper
     def soup_to_recipe(self, soup):
         # Find all elements with class="sc-a6821923-0 kOxEZP"
-        grid = soup.find_all("div", {"class": "sc-a6821923-0 KGVMo"})
+        grid_recipe = soup.find_all("div", {"class": "sc-a6821923-0 KGVMo"})
 
         # Extract text from each paragraph
         ingredient_texts = [p.get_text(strip=True) for p in soup.find_all('p', class_='sc-a6821923-0 KGVMo')]
@@ -39,28 +39,28 @@ class Scraper:
         for ingredient in ingredient_texts:
             print(ingredient)
 
-    # 2: Ingredients Scraper
+    # 3: Ingredients Scraper
     def soup_to_ingredient(self, soup):
         # Find all elements with class="sc-a6821923-0 kOxEZP"
-        grid = soup.find_all("div", {"class": "sc-a6821923-0 kOxEZP"})
+        grid_ingredient = soup.find_all("div", {"class": "sc-a6821923-0 kOxEZP"})
 
         # Extract text from each paragraph
         ingredient_texts = [p.get_text(strip=True) for p in soup.find_all('p', class_='sc-a6821923-0 fLfTya')]
 
         # Print the extracted text
         for ingredient in ingredient_texts:
-            print(ingredient)
-
-        # Extract text from each paragraph
-        ingredient_images = [p.find_all('img')[-1]['src'] for p in soup.find_all('p', class_='sc-a6821923-0 hZWAJE')]
-
-        # Print the extracted text
-        for images in ingredient_images:
-            print(images)
+            print("Ingredient: " + ingredient) # Text works perfectly fine but images not
 
 
 
-scrape = Scraper("https://www.hellofresh.de/recipes/feines-rinderhuftsteak-mit-cowboy-butter-sosse-6508729632e9107c6db96555")
+
+
+
+
+
+
+
+scrape = Scraper("https://www.hellofresh.de/recipes/balsamico-linsen-salat-mit-hahnchenbrust-64df2a75552e10127649f25f")
 soup = scrape.url_to_soup()
 scrape.soup_to_ingredient(soup)
 
