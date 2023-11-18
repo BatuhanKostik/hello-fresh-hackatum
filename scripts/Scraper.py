@@ -1,4 +1,5 @@
 import requests
+import re
 from bs4 import BeautifulSoup
 
 
@@ -46,6 +47,39 @@ class Scraper:
         tags = [tag.get_text(strip=True) for tag in tags_div.find_all('span', class_='sc-a6821923-0 fivcnB')]
         print("Tags:", tags)
 
+        # Find the div with the specified class
+        recipe_details_div = soup.find('div', class_='sc-a6821923-0 kuiNX')
+
+        # Extract and store the recipe details
+        preparation_time = recipe_details_div.find('span', {'data-translation-id': 'recipe-detail.preparation-time'}).find_next('span').get_text(strip=True)
+        cooking_time = recipe_details_div.find('span', {'data-translation-id': 'recipe-detail.cooking-time'}).find_next('span').get_text(strip=True)
+        difficulty_level = recipe_details_div.find('span', {'data-translation-id': 'recipe-detail.difficulty'}).find_next('span').get_text(strip=True)
+        print("Preparation Time:", preparation_time)
+        print("Cooking Time:", cooking_time)
+        print("Difficulty Level:", difficulty_level)
+
+
+
+    # 2: Nutrition Facts Scraper
+
+    def soup_to_nutrition_facts(self, soup):
+
+        html_content = str(soup)
+
+        # Use a regular expression to find all numeric values
+        numeric_values = re.findall(r'\d+\.\d+|\d+', html_content)
+
+        # Print the extracted numeric values
+        print(numeric_values)
+
+
+        print("Nutrition Information:" + nutrition_div.get_text(strip=True))
+
+
+
+
+
+
 
 
 
@@ -73,5 +107,5 @@ class Scraper:
 
 scrape = Scraper("https://www.hellofresh.de/recipes/couscous-mit-dukkah-gemuse-and-hirtenkase-thermomix-650819fe270f68660e1ac70b")
 soup = scrape.url_to_soup()
-scrape.soup_to_recipe(soup)
+scrape.soup_to_nutrition_facts(soup)
 
