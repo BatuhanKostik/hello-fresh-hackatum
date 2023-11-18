@@ -22,14 +22,14 @@ class AuthenticationController {
 
     @PostMapping("/register")
     public ResponseEntity<AuthenticationResult> register(@RequestBody RegisterRequest request) {
-    //    AuthenticationRegisterCommand command = new AuthenticationRegisterCommand(
-        //          request.username(),
-        //      request.password()
-        //);
+        AuthenticationRegisterCommand command = new AuthenticationRegisterCommand(
+                  request.username(),
+              request.password()
+        );
 
-        //AuthenticationResult authenticate = registerUseCase.register(command);
+        AuthenticationResult authenticate = registerUseCase.register(command);
 
-        return ResponseEntity.ok(null);
+        return ResponseEntity.ok(authenticate);
     }
 
 }

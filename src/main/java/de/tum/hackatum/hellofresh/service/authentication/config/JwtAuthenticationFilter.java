@@ -6,6 +6,7 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.log4j.Log4j;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -38,8 +39,9 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
     private void doFilterInternal(HttpServletRequest request) {
         if (accessibilityChecker.isRequestAgainstPublicApi(request) ||
-                !authorizationHeaderValidator.isTokenPresent(request) || isUserAlreadyAuthenticated())
+                !authorizationHeaderValidator.isTokenPresent(request) || isUserAlreadyAuthenticated()) {
             return;
+        }
 
         final String jwt = authorizationHeaderValidator.getToken(request);
         Optional<UserDetails> optional = jwtService.extractUserDetails(jwt);

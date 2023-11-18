@@ -12,9 +12,14 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.web.authentication.logout.LogoutHandler;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
+import org.springframework.security.web.servlet.util.matcher.MvcRequestMatcher;
+import org.springframework.web.servlet.handler.HandlerMappingIntrospector;
 
 
 import java.util.List;
+
+import static jakarta.servlet.DispatcherType.ERROR;
+import static jakarta.servlet.DispatcherType.FORWARD;
 
 @Configuration
 @EnableWebSecurity
@@ -56,21 +61,14 @@ public class SecurityConfiguration {
      * @throws Exception if an error occurs during configuration
      */
     @Bean
-    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+    public SecurityFilterChain securityFilterChain(HttpSecurity http, MvcRequestMatcher.Builder mvc) throws Exception {
         http
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(
                         authorizeHttpRequests -> authorizeHttpRequests
-
-                                .anyRequest()
-                                .permitAll()
-
-                        //    .anyRequest()
-                        //    .authenticated()
-                        //.requestMatchers(this.publicAccessibleRequests)
-
-                        //  .anyRequest()
-                        //  .authenticated()
+                                .dispatcherTypeMatchers(FORWARD, ERROR).permitAll()
+                                .requestMatchers(mvc.pattern("/api/v1/auth/register")).permitAll()
+                                .anyRequest().authenticated()
                 )
                 .sessionManagement(
                         sessionManagement ->
@@ -91,4 +89,10 @@ public class SecurityConfiguration {
 
         return http.build();
     }
+
+    @Bean
+    public MvcRequestMatcher.Builder mvc(HandlerMappingIntrospector introspector) {
+        return new MvcRequestMatcher.Builder(introspector);
+    }
+
 }

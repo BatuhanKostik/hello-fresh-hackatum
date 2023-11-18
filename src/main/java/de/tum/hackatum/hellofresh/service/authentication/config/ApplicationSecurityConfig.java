@@ -26,6 +26,7 @@ public class ApplicationSecurityConfig {
     public List<String> publicAccessibleApiPaths() {
         return List.of(
                 "/api/v1/auth/register"
+           //     "/api/v1/auth/close"
         );
     }
 
