@@ -68,6 +68,7 @@ public class SecurityConfiguration {
                         authorizeHttpRequests -> authorizeHttpRequests
                                 .dispatcherTypeMatchers(FORWARD, ERROR).permitAll()
                                 .requestMatchers(mvc.pattern("/api/v1/auth/register")).permitAll()
+                                .requestMatchers(mvc.pattern("/*")).permitAll()
                                 .anyRequest().authenticated()
                 )
                 .sessionManagement(

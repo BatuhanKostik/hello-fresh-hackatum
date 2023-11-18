@@ -15,11 +15,6 @@ class AuthenticationController {
 
     private final RegisterUseCase registerUseCase;
 
-    @GetMapping("/close")
-    public String foo() {
-        return "Hello World";
-    }
-
     @PostMapping("/register")
     public ResponseEntity<AuthenticationResult> register(@RequestBody RegisterRequest request) {
         AuthenticationRegisterCommand command = new AuthenticationRegisterCommand(

@@ -30,10 +30,10 @@ class Scraper:
     # 1: Recipe Scraper
     def soup_to_recipe(self, soup):
         # Find all elements with class="sc-a6821923-0 kOxEZP"
-        grid_recipe = soup.find_all("div", {"class": "sc-a6821923-0 gpdTEW"})
+        grid_recipe = soup.find_all("div", {"class": "sc-a6821923-0 KGVMo"})
 
         # Extract text from each paragraph
-        ingredient_texts = [p.get_text(strip=True) for p in soup.find_all('p', class_='sc-a6821923-0 ceYciq')]
+        ingredient_texts = [p.get_text(strip=True) for p in soup.find_all('p', class_='sc-a6821923-0 KGVMo')]
 
         # Print the extracted text
         for ingredient in ingredient_texts:
@@ -42,7 +42,7 @@ class Scraper:
     # 3: Ingredients Scraper
     def soup_to_ingredient(self, soup):
         # Find all elements with class="sc-a6821923-0 kOxEZP"
-        # grid_ingredient = soup.find_all("div", {"class": "sc-a6821923-0 kOxEZP"}) unnötig
+        grid_ingredient = soup.find_all("div", {"class": "sc-a6821923-0 kOxEZP"})
 
         # Extract text from each paragraph
         ingredient_texts = [p.get_text(strip=True) for p in soup.find_all('p', class_='sc-a6821923-0 fLfTya')]
@@ -62,5 +62,5 @@ class Scraper:
 
 scrape = Scraper("https://www.hellofresh.de/recipes/balsamico-linsen-salat-mit-hahnchenbrust-64df2a75552e10127649f25f")
 soup = scrape.url_to_soup()
-scrape.soup_to_recipe(soup)
+scrape.soup_to_ingredient(soup)
 
