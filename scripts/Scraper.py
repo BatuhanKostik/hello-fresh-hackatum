@@ -55,12 +55,36 @@ class Scraper:
 
 
 
+def foo(p):
+    try:
+        response = requests.get(p)
+        # Parse the HTML content into a BeautifulSoup object
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        zutaten_div = "sc-a6821923-0 eWIsPQ"
+
+        zutaten = soup.find_all("div", {"class": "sc-a6821923-0 kOxEZP"})
+
+        print("sad")
+
+        c = zutaten.findChildren('img', recursive=False)
+
+        for i in c:
+            print(i)
+
+
+    except requests.exceptions.RequestException as e:
+        print(f"Error making the request: {e}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
 
 
 
 
+if __name__ == '__main__':
+    foo("https://www.hellofresh.de/recipes/balsamico-linsen-salat-mit-hahnchenbrust-64df2a75552e10127649f25f")
 
-scrape = Scraper("https://www.hellofresh.de/recipes/balsamico-linsen-salat-mit-hahnchenbrust-64df2a75552e10127649f25f")
-soup = scrape.url_to_soup()
-scrape.soup_to_ingredient(soup)
+#scrape = Scraper("https://www.hellofresh.de/recipes/balsamico-linsen-salat-mit-hahnchenbrust-64df2a75552e10127649f25f")
+#soup = scrape.url_to_soup()
+#scrape.soup_to_ingredient(soup)
 
