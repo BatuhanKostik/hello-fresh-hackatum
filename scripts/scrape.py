@@ -11,7 +11,7 @@ try:
     # Parse the HTML content into a BeautifulSoup object
     soup = BeautifulSoup(response.text, "html.parser")
 
-    # Find all elements with class="sc-a6821923-0 kOxEZP"
+     # Find all elements with class="sc-a6821923-0 kOxEZP"
     grid = soup.find_all("div", {"class": "sc-a6821923-0 kOxEZP"})
     grid2 = soup.find_all("p", {"class": "sc-a6821923-0 fLfTya"})
 
