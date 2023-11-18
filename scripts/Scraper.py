@@ -23,7 +23,7 @@ class Scraper:
     def url_to_soup(self):
         try:
             response = requests.get(self.url)
-
+            print(response.text)
             # Parse the HTML content into a BeautifulSoup object
             soup = BeautifulSoup(response.text, "html.parser")
             return soup
@@ -39,8 +39,14 @@ class Scraper:
         description_div = soup.find('div', class_='sc-a6821923-0 jeetYO')
         recipe_title = description_div.find('h1').get_text(strip=True)
         recipe_sub_title = description_div.find('h2').get_text(strip=True)
+
         print("H1:", recipe_title)
         print("H2:", recipe_sub_title)
+
+
+
+
+
 
         description_div = soup.find('div', class_='sc-a6821923-0 kVUALj')
         description = description_div.find('p').get_text(strip=True)
@@ -55,14 +61,9 @@ class Scraper:
         recipe_details_div = soup.find('div', class_='sc-a6821923-0 kuiNX')
 
         # Extract and store the recipe details
-        preparation_time = recipe_details_div.find('span',
-                                                   {'data-translation-id': 'recipe-detail.preparation-time'}).find_next(
-            'span').get_text(strip=True)
-        cooking_time = recipe_details_div.find('span', {'data-translation-id': 'recipe-detail.cooking-time'}).find_next(
-            'span').get_text(strip=True)
-        difficulty_level = recipe_details_div.find('span',
-                                                   {'data-translation-id': 'recipe-detail.difficulty'}).find_next(
-            'span').get_text(strip=True)
+        preparation_time = recipe_details_div.find('span', {'data-translation-id': 'recipe-detail.preparation-time'}).find_next('span').get_text(strip=True)
+        cooking_time = recipe_details_div.find('span', {'data-translation-id': 'recipe-detail.cooking-time'}).find_next('span').get_text(strip=True)
+        difficulty_level = recipe_details_div.find('span', {'data-translation-id': 'recipe-detail.difficulty'}).find_next('span').get_text(strip=True)
         print("Preparation Time:", preparation_time)
         print("Cooking Time:", cooking_time)
         print("Difficulty Level:", difficulty_level)
@@ -92,7 +93,6 @@ class Scraper:
             print("Ingredient: " + ingredient)  # Text works perfectly fine but images not
 
 
-scrape = Scraper(
-    "https://www.hellofresh.de/recipes/couscous-mit-dukkah-gemuse-and-hirtenkase-thermomix-650819fe270f68660e1ac70b")
+scrape = Scraper("https://www.hellofresh.de/recipes/couscous-mit-dukkah-gemuse-and-hirtenkase-thermomix-650819fe270f68660e1ac70b")
 soup = scrape.url_to_soup()
-scrape.soup_to_nutrition_facts(soup)
+scrape.soup_to_recipe(soup)
