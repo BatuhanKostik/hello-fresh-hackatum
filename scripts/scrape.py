@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 try:
-    # Get the HTML of the page
+     # Get the HTML of the page
     url = "https://www.hellofresh.de/recipes/balsamico-linsen-salat-mit-hahnchenbrust-64df2a75552e10127649f25f"
     response = requests.get(url)
     response.raise_for_status()  # Raise an HTTPError for bad responses
