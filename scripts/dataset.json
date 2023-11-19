@@ -173,6 +173,102 @@
 
 
 
+    [
+    {
+        "ingredients": {
+            "main_image": "https://www.hellofresh.de/recipes/enchiladas-mit-rauchiger-tomatensosse-64e888ee4e40d5c6cb1a65fe",
+            "ingredients": [
+                [
+                    "Weizentortillas",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da292a796d73553a895e4f-91202737.png",
+
+                    "rote Spitzpaprika",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29c5b886d9ac2889dd3c-4e5bbcf1.png",
+
+                    "würziger Gouda, gerieben",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29cfd3fa192603729140-1ca69777.png",
+
+                    "Tomatenmark",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29b3b886d9ac2889dc21-15c1bb51.png",
+
+                    "Limette, gewachst",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2984796d73553a8963d5-c9c0eb64.png",
+
+                    "saure Sahne",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2917d3fa192603728655-69ece38b.png",
+
+                    "Früchlingszwiebel",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2958b886d9ac2889d691-f67e1a62.png",
+
+                    "rote Chilischote",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2965796d73553a8961dd-bccbec57.png",
+
+                    "Gewürzmischung Hello Smoky Paprika",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29e3b886d9ac2889deee-317afa65.png",
+
+                    "Tomate",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2956796d73553a8960f3-f3f361db.png",
+
+                    "schwarze Bohnen",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da293f796d73553a895fbf-de4083ad.png",
+
+                    "Gemüsebrühpulver",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da298bd3fa192603728d73-5b8b29b7.png",
+
+                    "Knoblauchzehe",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29e1b886d9ac2889decd-1f443e2e.png",
+
+                    "Mais",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da295b796d73553a896147-cdecdc88.png",
+
+                    "Öl",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba157d57fa39a31ce3216-d2c7259f.png",
+
+                    "Zucker",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba169f7724a92345a79e3-efa6cd2b.png",
+
+                    "Salz",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba15ceb160db9a3ae44f1-4656e7bb.png",
+
+                    "Wasser",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5568422afd2cb984278b4568-ec14d809.png",
+
+                    "Butter",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba160d57fa39a31ce3231-0de9838d.png",
+
+                    "Pfeffer",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba170d57fa39a31ce3261-3f58cb37.png"
+                ]
+            ],
+            "linc": "https://www.hellofresh.de/recipes/couscous-mit-dukkah-gemuse-and-hirtenkase-thermomix-650819fe270f68660e1ac70b"
+        },
+        "nutrition_facts": {
+            "carbohydrates": "21.8g",
+            "energy_kJ": "4475kJ",
+            "energy_kcal": "1069kcal",
+            "protein": "35g",
+            "salt": "40.4g",
+            "saturates": "42.6g",
+            "sugar": "126.6g"
+        },
+        "recipe": {
+            "allergens": ["Weizen", "Milch (einschließlich Laktose)", "Senf", "Sellerie"],
+            "description": "Ay caramba, es ist Zeit für einen Ausflug nach Mexiko! Und so viel ist sicher: Unser kreatives Gericht ist geschmacklich echt eine Fiesta. Das Wort 'Fiesta' ist übrigens spanisch und bedeutet 'Fest'. Wir hoffen, dass auch Du und Deine Lieben in gute Stimmung kommt, sobald ihr unser farbenfrohes Gericht auftischt.",
+            "difficulty_level": "Schwierig",
+            "subtitle": "Bohnen, scharfer Tomatensalsa und Limettendip",
+            "tags": [
+                [
+                    "Vegetarisch"
+                ]
+            ],
+            "title": "Enchiladas mit rauchiger Tomatensoße",
+            "total_time": "40 Minuten",
+            "work_time": "30 Minuten"
+        }
+    }
+]
+
+
 
 
 
