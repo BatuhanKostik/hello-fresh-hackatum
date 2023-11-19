@@ -16,9 +16,11 @@ class Scraper:
         Returns:
             BeautifulSoup: A BeautifulSoup object representing the HTML content of the URL.
         """
+
     def url_to_soup(self):
         try:
             response = requests.get(self.url)
+            print(response.text)
             # Parse the HTML content into a BeautifulSoup object
             soup = BeautifulSoup(response.text, "html.parser")
             return soup
@@ -29,62 +31,65 @@ class Scraper:
 
     # 1: Recipe Scraper
     def soup_to_recipe(self, soup):
-        # Find all elements with class="sc-a6821923-0 kOxEZP"
-        grid_recipe = soup.find_all("div", {"class": "sc-a6821923-0 KGVMo"})
+
+        # Find the div with the specified class
+        description_div = soup.find('div', class_='sc-a6821923-0 jeetYO')
+        recipe_title = description_div.find('h1').get_text(strip=True)
+        recipe_sub_title = description_div.find('h2').get_text(strip=True)
+
+        print("H1:", recipe_title)
+        print("H2:", recipe_sub_title)
+
+
+
+
+
+
+        description_div = soup.find('div', class_='sc-a6821923-0 kVUALj')
+        description = description_div.find('p').get_text(strip=True)
+        print("Description", description)
+
+        # Find the div with the specified class
+        tags_div = soup.find('div', class_='sc-a6821923-0 jCgtKL')
+        tags = [tag.get_text(strip=True) for tag in tags_div.find_all('span', class_='sc-a6821923-0 fivcnB')]
+        print("Tags:", tags)
+
+        # Find the div with the specified class
+        recipe_details_div = soup.find('div', class_='sc-a6821923-0 kuiNX')
+
+        # Extract and store the recipe details
+        preparation_time = recipe_details_div.find('span', {'data-translation-id': 'recipe-detail.preparation-time'}).find_next('span').get_text(strip=True)
+        cooking_time = recipe_details_div.find('span', {'data-translation-id': 'recipe-detail.cooking-time'}).find_next('span').get_text(strip=True)
+        difficulty_level = recipe_details_div.find('span', {'data-translation-id': 'recipe-detail.difficulty'}).find_next('span').get_text(strip=True)
+        print("Preparation Time:", preparation_time)
+        print("Cooking Time:", cooking_time)
+        print("Difficulty Level:", difficulty_level)
+
+    # 2: Nutrition Facts Scraper
+
+    def soup_to_nutrition_facts(self, soup):
 
         # Extract text from each paragraph
-        ingredient_texts = [p.get_text(strip=True) for p in soup.find_all('p', class_='sc-a6821923-0 KGVMo')]
+        ingredient_texts = [p.get_text(strip=True) for p in soup.find_all('span', class_='sc-a6821923-0 eZjiGJ')]
+        del ingredient_texts[:3]
 
-        # Print the extracted text
-        for ingredient in ingredient_texts:
-            print(ingredient)
+    """
+    # Print the extracted text
+    for ingredient in ingredient_texts:
+         print("Ingredient: " + ingredient) 
+    """
 
     # 3: Ingredients Scraper
     def soup_to_ingredient(self, soup):
-        # Find all elements with class="sc-a6821923-0 kOxEZP"
-        grid_ingredient = soup.find_all("div", {"class": "sc-a6821923-0 kOxEZP"})
 
         # Extract text from each paragraph
         ingredient_texts = [p.get_text(strip=True) for p in soup.find_all('p', class_='sc-a6821923-0 fLfTya')]
 
         # Print the extracted text
         for ingredient in ingredient_texts:
-            print("Ingredient: " + ingredient) # Text works perfectly fine but images not
+            print("Ingredient: " + ingredient)  # Text works perfectly fine but images not
 
 
-
-
-
-def foo(p):
-    try:
-        response = requests.get(p)
-        # Parse the HTML content into a BeautifulSoup object
-        soup = BeautifulSoup(response.text, "html.parser")
-
-        zutaten_div = "sc-a6821923-0 eWIsPQ"
-
-        zutaten = soup.find_all("div", {"class": "sc-a6821923-0 kOxEZP"})
-
-        print("sad")
-
-        c = zutaten.findChildren('img', recursive=False)
-
-        for i in c:
-            print(i)
-
-
-    except requests.exceptions.RequestException as e:
-        print(f"Error making the request: {e}")
-    except Exception as e:
-        print(f"An unexpected error occurred: {e}")
-
-
-
-
-if __name__ == '__main__':
-    foo("https://www.hellofresh.de/recipes/balsamico-linsen-salat-mit-hahnchenbrust-64df2a75552e10127649f25f")
-
-#scrape = Scraper("https://www.hellofresh.de/recipes/balsamico-linsen-salat-mit-hahnchenbrust-64df2a75552e10127649f25f")
-#soup = scrape.url_to_soup()
-#scrape.soup_to_ingredient(soup)
-
+scrape = Scraper("https://www.hellofresh.de/recipes/couscous-mit-dukkah-gemuse-and-hirtenkase-thermomix-650819fe270f68660e1ac70b")
+soup = scrape.url_to_soup()
+scrape.soup_to_recipe(soup)
