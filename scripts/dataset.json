@@ -1,24 +1,53 @@
-
 [
     {
         "ingredients": {
+            "main_image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/HF_Y23_R33_W05_DE_R4484-1_KB_Main_low-99964e18.jpg",
             "ingredients": [
                 [
                     "Weizentortillas",
-                    "ger\u00e4ucherter Tofu",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da292a796d73553a895e4f-91202737.png",
+
+                    "geräucherter Tofu",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2923796d73553a895dea-653e2cc4.png",
+
                     "Mango",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29cd796d73553a89678c-d83bda5d.png",
+
                     "rote Spitzpaprika",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29c5b886d9ac2889dd3c-4e5bbcf1.png",
+
                     "rote Zwiebel",
-                    "Gew\u00fcrzmischung \u201eHello Harissa\u201c",
-                    "Sojaso\u00dfe",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29bd796d73553a8966aa-cea6f733.png",
+
+                    "Gewürzmischung Hello Harissa",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2969d3fa192603728b46-6de389c4.png",
+
+                    "Sojasoße",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2921d3fa19260372871b-bf6f58c5.png",
+
                     "vegane Mayonnaise",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da293eb886d9ac2889d50b-6dfe560b.png",
+
                     "Knoblauchzehe",
-                    "Oliven\u00f6l",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29e1b886d9ac2889decd-1f443e2e.png",
+
+                    "Olivenöl",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba17beb160db9a3ae4598-e2b95464.png",
+
                     "Salz",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba15ceb160db9a3ae44f1-4656e7bb.png",
+
                     "Zucker",
-                    "Wei\u00dfweinessig",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba148f7724a92345a7982-22d7565c.png",
+
+                    "Weißweinessig",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba15ff7724a92345a79cb-50172d9e.png",
+
                     "Pfeffer",
-                    "\u00d6l"
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba170d57fa39a31ce3261-3f58cb37.png",
+
+                    "Öl",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba157d57fa39a31ce3216-d2c7259f.png"
                 ]
             ],
             "linc": "https://www.hellofresh.de/recipes/couscous-mit-dukkah-gemuse-and-hirtenkase-thermomix-650819fe270f68660e1ac70b"
@@ -32,6 +61,21 @@
             "saturates": "44.5g",
             "sugar": "85.9g"
         },
-        "recipe": null
+        "recipe": {
+            "allergens": ["Weizen", "Soja"],
+            "description": "Du möchtest bunt und mit vielen frischen Zutaten kochen und genießen? Dann ist die mexikanische Küche ganz bestimmt etwas för Dich! Unser heutiges Rezept hat alles, was es braucht, um Dich zu überzeugen!",
+            "difficulty_level": "Mittel",
+            "subtitle": "Bei diesem Gericht wird 50% weniger CO2e durch Zutaten verursacht als bei einem durchschnittlichen HelloFresh Rezept",
+            "tags": [
+                [
+                    "Klimaheld",
+                    "Vegan",
+                    "Ohne Milchprodukte"
+                ]
+            ],
+            "title": "Tacos mit Räuchertofu & Mango-Paprika-Salsa",
+            "total_time": "30 Minuten",
+            "work_time": "20 Minuten"
+        }
     }
 ]
