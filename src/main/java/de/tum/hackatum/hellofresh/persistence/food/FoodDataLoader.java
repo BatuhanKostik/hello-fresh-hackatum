@@ -34,11 +34,7 @@ public class FoodDataLoader {
     }
 
     private void addRecipe(List<IngredientEntity> ingredientEntities){
-        RegionEntity regionEntity = regionRepository.save(RegionEntity.builder()
-                .name("DEUTSCHLAND")
-                .build());
-
-        RecipeEntity save = recipeRepository.save(
+         recipeRepository.save(
                 RecipeEntity.builder()
                         .name("Foo")
                         .ingredients(new HashSet<>())
@@ -53,7 +49,6 @@ public class FoodDataLoader {
         save.getIngredients().add(ingredientEntities.get(0));
 
         recipeRepository.save(save);
-
     }
 
     private List<IngredientEntity> loadIngredients() {
