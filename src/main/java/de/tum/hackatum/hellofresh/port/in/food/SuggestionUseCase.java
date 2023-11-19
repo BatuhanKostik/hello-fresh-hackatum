@@ -1,4 +1,4 @@
-package de.tum.hackatum.hellofresh.port.in.suggestion;
+package de.tum.hackatum.hellofresh.port.in.food;
 
 public interface SuggestionUseCase {
 

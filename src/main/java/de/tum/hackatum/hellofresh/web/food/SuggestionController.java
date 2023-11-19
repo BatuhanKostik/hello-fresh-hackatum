@@ -1,6 +1,6 @@
-package de.tum.hackatum.hellofresh.web.suggestion;
+package de.tum.hackatum.hellofresh.web.food;
 
-import de.tum.hackatum.hellofresh.port.in.suggestion.SuggestionUseCase;
+import de.tum.hackatum.hellofresh.port.in.food.SuggestionUseCase;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/v1/suggestion/")
+@RequestMapping("/api/v1/food/suggestion/")
 @AllArgsConstructor
 public class SuggestionController {
 

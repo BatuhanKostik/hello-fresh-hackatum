@@ -12,4 +12,6 @@ public interface UserPort {
 
     boolean existUsername(String username);
 
+    String getUserModel(UserDetails userDetails);
+
 }

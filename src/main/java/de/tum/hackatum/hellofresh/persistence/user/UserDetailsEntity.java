@@ -24,5 +24,7 @@ public class UserDetailsEntity {
     private boolean isAccountNonLocked;
     private boolean isCredentialsNonExpired;
     private boolean isEnabled;
+    // like sportler
+    private String model;
 
 }
