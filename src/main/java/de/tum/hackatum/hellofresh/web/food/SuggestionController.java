@@ -1,13 +1,14 @@
 package de.tum.hackatum.hellofresh.web.food;
 
+import de.tum.hackatum.hellofresh.persistence.food.recipe.RecipeEntity;
 import de.tum.hackatum.hellofresh.port.in.food.SuggestionUseCase;
+import de.tum.hackatum.hellofresh.service.suggestion.SuggestionService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/food/suggestion/")
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SuggestionController {
 
     private final SuggestionUseCase suggestionUseCase;
+    private final SuggestionService suggestionService;
 
     @PostMapping("ingredient")
     public ResponseEntity<String> addIngredientPreference(@RequestParam String name, @RequestParam  int weight){
@@ -34,6 +36,13 @@ public class SuggestionController {
             return ResponseEntity.ok().body("Added");
 
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("");
+    }
+
+    @GetMapping
+    public ResponseEntity<RecipeEntity> load() {
+        RecipeEntity recipe = suggestionService.generateSuggestion(List.of());
+
+        return ResponseEntity.ok(recipe);
     }
 
 }

@@ -9,5 +9,4 @@ public interface RecipeRepository extends JpaRepository<RecipeEntity, Long> {
     Optional<RecipeEntity> getRecipeEntityByName(String name);
 
 
-
 }

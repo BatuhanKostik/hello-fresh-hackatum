@@ -23,7 +23,7 @@ public class IngredientEntity {
     private long id;
     private String name;
     private String link;
-    @ManyToMany(mappedBy = "ingredients")
+    @ManyToMany(mappedBy = "ingredients", fetch=FetchType.EAGER)
     private Set<RecipeEntity> recipes;
 
 }

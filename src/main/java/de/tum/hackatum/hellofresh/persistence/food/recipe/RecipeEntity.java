@@ -29,7 +29,7 @@ public class RecipeEntity {
     private int workingTimeSeconds;
     private int workingTimeTotalSeconds;
 
-    @ManyToMany
+    @ManyToMany(fetch=FetchType.EAGER)
     @JoinTable(
             name = "ingredient_got",
             joinColumns = @JoinColumn(name = "ingredient_id"),

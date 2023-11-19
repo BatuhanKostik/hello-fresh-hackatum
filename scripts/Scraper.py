@@ -1,5 +1,12 @@
+import html.parser
+
 import requests
 from bs4 import BeautifulSoup
+from html import unescape
+
+from scripts.Ingredients import Ingredients
+from scripts.NutritionFacts import NutritionFacts
+from scripts.Recipe import Recipe
 
 
 class Scraper:
@@ -20,7 +27,6 @@ class Scraper:
     def url_to_soup(self):
         try:
             response = requests.get(self.url)
-            print(response.text)
             # Parse the HTML content into a BeautifulSoup object
             soup = BeautifulSoup(response.text, "html.parser")
             return soup
@@ -31,39 +37,35 @@ class Scraper:
 
     # 1: Recipe Scraper
     def soup_to_recipe(self, soup):
-
         # Find the div with the specified class
         description_div = soup.find('div', class_='sc-a6821923-0 jeetYO')
-        recipe_title = description_div.find('h1').get_text(strip=True)
-        recipe_sub_title = description_div.find('h2').get_text(strip=True)
+        recipe_title = unescape(description_div.find('h1').get_text(strip=True))
 
-        print("H1:", recipe_title)
-        print("H2:", recipe_sub_title)
-
-
-
-
-
+        recipe_sub_title = unescape(description_div.find('h2').get_text(strip=True))
 
         description_div = soup.find('div', class_='sc-a6821923-0 kVUALj')
         description = description_div.find('p').get_text(strip=True)
-        print("Description", description)
 
         # Find the div with the specified class
         tags_div = soup.find('div', class_='sc-a6821923-0 jCgtKL')
-        tags = [tag.get_text(strip=True) for tag in tags_div.find_all('span', class_='sc-a6821923-0 fivcnB')]
-        print("Tags:", tags)
+        receipe_tags = [tag.get_text(strip=True) for tag in tags_div.find_all('span', class_='sc-a6821923-0 fivcnB')]
 
         # Find the div with the specified class
         recipe_details_div = soup.find('div', class_='sc-a6821923-0 kuiNX')
 
         # Extract and store the recipe details
-        preparation_time = recipe_details_div.find('span', {'data-translation-id': 'recipe-detail.preparation-time'}).find_next('span').get_text(strip=True)
-        cooking_time = recipe_details_div.find('span', {'data-translation-id': 'recipe-detail.cooking-time'}).find_next('span').get_text(strip=True)
-        difficulty_level = recipe_details_div.find('span', {'data-translation-id': 'recipe-detail.difficulty'}).find_next('span').get_text(strip=True)
-        print("Preparation Time:", preparation_time)
-        print("Cooking Time:", cooking_time)
-        print("Difficulty Level:", difficulty_level)
+        total_time = recipe_details_div.find('span',
+                                             {'data-translation-id': 'recipe-detail.preparation-time'}).find_next(
+            'span').get_text(strip=True)
+        cooking_time = recipe_details_div.find('span', {'data-translation-id': 'recipe-detail.cooking-time'}).find_next(
+            'span').get_text(strip=True)
+        difficulty_level = recipe_details_div.find('span',
+                                                   {'data-translation-id': 'recipe-detail.difficulty'}).find_next(
+            'span').get_text(strip=True)
+
+        r = Recipe(recipe_title, recipe_sub_title, description, total_time, cooking_time, difficulty_level)
+        r.tags.append(receipe_tags)
+        return r
 
     # 2: Nutrition Facts Scraper
 
@@ -72,6 +74,8 @@ class Scraper:
         # Extract text from each paragraph
         ingredient_texts = [p.get_text(strip=True) for p in soup.find_all('span', class_='sc-a6821923-0 eZjiGJ')]
         del ingredient_texts[:3]
+        return NutritionFacts(ingredient_texts[0], ingredient_texts[1], ingredient_texts[2], ingredient_texts[3],
+                           ingredient_texts[4], ingredient_texts[5], ingredient_texts[6])
 
     """
     # Print the extracted text
@@ -85,11 +89,10 @@ class Scraper:
         # Extract text from each paragraph
         ingredient_texts = [p.get_text(strip=True) for p in soup.find_all('p', class_='sc-a6821923-0 fLfTya')]
 
-        # Print the extracted text
-        for ingredient in ingredient_texts:
-            print("Ingredient: " + ingredient)  # Text works perfectly fine but images not
+        i = Ingredients(
+            "https://www.hellofresh.de/recipes/couscous-mit-dukkah-gemuse-and-hirtenkase-thermomix-650819fe270f68660e1ac70b")
+        i.ingredients.append(ingredient_texts)
+
+        return i
 
 
-scrape = Scraper("https://www.hellofresh.de/recipes/couscous-mit-dukkah-gemuse-and-hirtenkase-thermomix-650819fe270f68660e1ac70b")
-soup = scrape.url_to_soup()
-scrape.soup_to_recipe(soup)

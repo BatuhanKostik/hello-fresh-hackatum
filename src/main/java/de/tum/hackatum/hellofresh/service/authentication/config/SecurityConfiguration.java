@@ -55,7 +55,7 @@ public class SecurityConfiguration {
                                 .requestMatchers(mvc.pattern("/api/v1/auth/register")).permitAll()
                                 .requestMatchers(mvc.pattern("/h2-console")).permitAll()
                                 .requestMatchers(mvc.pattern("/v3/api-docs")).permitAll()
-                               // .anyRequest().authenticated()
+                                .anyRequest().authenticated()
                 )
                 .sessionManagement(
                         sessionManagement ->

@@ -34,14 +34,21 @@ public class IngredientConstraintAdapter implements IngredientConstraintPort {
 
         IngredientEntity ingredientEntity = optionalIngredient.get();
 
+        Optional<UserDetailsEntity> byUsername = userDetailsRepository.findByUsername(userDetails.getUsername());
+
+        if (byUsername.isEmpty()) {
+            return false;
+        }
+
+
         IngredientConstraintEntity entity = IngredientConstraintEntity.builder()
                 .ingredientEntity(ingredientEntity)
-                .userDetailsEntity(userDetailsMapper.mapToUserDetailsEntity(userDetails))
+                .userDetailsEntity(byUsername.get())
                 .build();
 
         ingredientConstrainRepository.save(entity);
 
-        return false;
+        return true;
     }
 
     @Override

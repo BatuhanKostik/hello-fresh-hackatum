@@ -1,0 +1,602 @@
+[
+    {
+        "ingredients": {
+            "main_image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/HF_Y23_R33_W05_DE_R4484-1_KB_Main_low-99964e18.jpg",
+            "ingredients": [
+                [
+                    "Weizentortillas",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da292a796d73553a895e4f-91202737.png",
+
+                    "geräucherter Tofu",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2923796d73553a895dea-653e2cc4.png",
+
+                    "Mango",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29cd796d73553a89678c-d83bda5d.png",
+
+                    "rote Spitzpaprika",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29c5b886d9ac2889dd3c-4e5bbcf1.png",
+
+                    "rote Zwiebel",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29bd796d73553a8966aa-cea6f733.png",
+
+                    "Gewürzmischung Hello Harissa",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2969d3fa192603728b46-6de389c4.png",
+
+                    "Sojasoße",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2921d3fa19260372871b-bf6f58c5.png",
+
+                    "vegane Mayonnaise",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da293eb886d9ac2889d50b-6dfe560b.png",
+
+                    "Knoblauchzehe",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29e1b886d9ac2889decd-1f443e2e.png",
+
+                    "Olivenöl",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba17beb160db9a3ae4598-e2b95464.png",
+
+                    "Salz",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba15ceb160db9a3ae44f1-4656e7bb.png",
+
+                    "Zucker",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba148f7724a92345a7982-22d7565c.png",
+
+                    "Weißweinessig",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba15ff7724a92345a79cb-50172d9e.png",
+
+                    "Pfeffer",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba170d57fa39a31ce3261-3f58cb37.png",
+
+                    "Öl",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba157d57fa39a31ce3216-d2c7259f.png"
+                ]
+            ],
+            "linc": "https://www.hellofresh.de/recipes/couscous-mit-dukkah-gemuse-and-hirtenkase-thermomix-650819fe270f68660e1ac70b"
+        },
+        "nutrition_facts": {
+            "carbohydrates": "6.2g",
+            "energy_kJ": "3675kJ",
+            "energy_kcal": "878kcal",
+            "protein": "32.3g",
+            "salt": "30.1g",
+            "saturates": "44.5g",
+            "sugar": "85.9g"
+        },
+        "recipe": {
+            "allergens": ["Weizen", "Soja"],
+            "description": "Du möchtest bunt und mit vielen frischen Zutaten kochen und genießen? Dann ist die mexikanische Küche ganz bestimmt etwas för Dich! Unser heutiges Rezept hat alles, was es braucht, um Dich zu überzeugen!",
+            "difficulty_level": "Mittel",
+            "subtitle": "Bei diesem Gericht wird 50% weniger CO2e durch Zutaten verursacht als bei einem durchschnittlichen HelloFresh Rezept",
+            "tags": [
+                [
+                    "Klimaheld",
+                    "Vegan",
+                    "Ohne Milchprodukte"
+                ]
+            ],
+            "title": "Tacos mit Räuchertofu & Mango-Paprika-Salsa",
+            "total_time": "30 Minuten",
+            "work_time": "20 Minuten"
+        }
+    }
+
+
+
+
+    {
+        "ingredients": {
+            "main_image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/HF_Y23_R10_W43_DE_PM4758-1_Main_F2_low-74af93fa.jpg",
+            "ingredients": [
+                [
+                    "würziger Gouda, gerieben",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29cfd3fa192603729140-1ca69777.png",
+
+                    "Mini-Fladenbrot",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2907796d73553a895c24-a6e544c5.png",
+
+                    "Jalapeno",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29e4d3fa192603729279-7d2f0f6f.png",
+
+                    "Avocado",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2933b886d9ac2889d472-62bb0b86.png",
+
+                    "Tomate",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2956796d73553a8960f3-f3f361db.png",
+
+                    "Aioli",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2929b886d9ac2889d3e9-2d10e4fc.png",
+
+                    "Limette, gewachst",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2984796d73553a8963d5-c9c0eb64.png",
+
+                    "Koriander",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da28fbd3fa192603728481-53836781.png",
+
+                    "Ketchup",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29b4b886d9ac2889dc39-5b84880a.png",
+
+                    "Sükartoffel",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2996b886d9ac2889da5d-8182949e.png",
+
+                    "Gewürzmischung Hello Fiesta",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2905796d73553a895bf7-fb542bb8.png",
+
+                    "Pulled Pork",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2978b886d9ac2889d854-04c1e2fa.png",
+
+                    "Öl",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba157d57fa39a31ce3216-d2c7259f.png",
+
+                    "Zucker",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba148f7724a92345a7982-22d7565c.png",
+
+                    "Pfeffer",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba170d57fa39a31ce3261-3f58cb37.png",
+
+                    "Wasser",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5568422afd2cb984278b4568-ec14d809.png",
+
+                    "Salz",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba162f7724a92345a79da-bc3de068.png"
+                ]
+            ],
+            "linc": "https://www.hellofresh.de/recipes/couscous-mit-dukkah-gemuse-and-hirtenkase-thermomix-650819fe270f68660e1ac70b"
+        },
+        "nutrition_facts": {
+            "carbohydrates": "15.1g",
+            "energy_kJ": "5068kJ",
+            "energy_kcal": "1211kcal",
+            "protein": "25.4g",
+            "salt": "47.2g",
+            "saturates": "54.9g",
+            "sugar": "130g"
+        },
+        "recipe": {
+            "allergens": ["Milch (einschließlich Laktose)"],
+            "description": "Streetfood für Zuhause! So holst Du Dir kulinarische Leckereien aus verschiedenen Länderküchen ganz einfach selbst nach Hause. Unkompliziert in der Zubereitung und unheimlich gut im Geschmack wird dieses Fingerfood zu Deinem Soul Food der Woche. Und das Beste? Mit den Händen essen ist nicht nur erlaubt, sondern definitiv erwünscht!",
+            "difficulty_level": "Mittel",
+            "subtitle": "mit Guacamole & Salsa Roja, dazu Sükartoffelchips",
+            "tags": [
+                [
+                    "Milch (einschließlich Laktose)",
+                    "Sesamsamen",
+                    "Weizen",
+                    "Eier",
+                    "Senf",
+                    "Sellerie"
+                ]
+            ],
+            "title": "Mexican Torta! Pulled Pork Sandwich",
+            "total_time": "35 Minuten",
+            "work_time": "25 Minuten"
+        }
+    }
+
+
+
+    [
+    {
+        "ingredients": {
+            "main_image": "https://www.hellofresh.de/recipes/enchiladas-mit-rauchiger-tomatensosse-64e888ee4e40d5c6cb1a65fe",
+            "ingredients": [
+                [
+                    "Weizentortillas",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da292a796d73553a895e4f-91202737.png",
+
+                    "rote Spitzpaprika",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29c5b886d9ac2889dd3c-4e5bbcf1.png",
+
+                    "würziger Gouda, gerieben",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29cfd3fa192603729140-1ca69777.png",
+
+                    "Tomatenmark",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29b3b886d9ac2889dc21-15c1bb51.png",
+
+                    "Limette, gewachst",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2984796d73553a8963d5-c9c0eb64.png",
+
+                    "saure Sahne",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2917d3fa192603728655-69ece38b.png",
+
+                    "Früchlingszwiebel",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2958b886d9ac2889d691-f67e1a62.png",
+
+                    "rote Chilischote",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2965796d73553a8961dd-bccbec57.png",
+
+                    "Gewürzmischung Hello Smoky Paprika",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29e3b886d9ac2889deee-317afa65.png",
+
+                    "Tomate",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2956796d73553a8960f3-f3f361db.png",
+
+                    "schwarze Bohnen",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da293f796d73553a895fbf-de4083ad.png",
+
+                    "Gemüsebrühpulver",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da298bd3fa192603728d73-5b8b29b7.png",
+
+                    "Knoblauchzehe",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29e1b886d9ac2889decd-1f443e2e.png",
+
+                    "Mais",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da295b796d73553a896147-cdecdc88.png",
+
+                    "Öl",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba157d57fa39a31ce3216-d2c7259f.png",
+
+                    "Zucker",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba169f7724a92345a79e3-efa6cd2b.png",
+
+                    "Salz",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba15ceb160db9a3ae44f1-4656e7bb.png",
+
+                    "Wasser",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5568422afd2cb984278b4568-ec14d809.png",
+
+                    "Butter",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba160d57fa39a31ce3231-0de9838d.png",
+
+                    "Pfeffer",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba170d57fa39a31ce3261-3f58cb37.png"
+                ]
+            ],
+            "linc": "https://www.hellofresh.de/recipes/couscous-mit-dukkah-gemuse-and-hirtenkase-thermomix-650819fe270f68660e1ac70b"
+        },
+        "nutrition_facts": {
+            "carbohydrates": "21.8g",
+            "energy_kJ": "4475kJ",
+            "energy_kcal": "1069kcal",
+            "protein": "35g",
+            "salt": "40.4g",
+            "saturates": "42.6g",
+            "sugar": "126.6g"
+        },
+        "recipe": {
+            "allergens": ["Weizen", "Milch (einschließlich Laktose)", "Senf", "Sellerie"],
+            "description": "Ay caramba, es ist Zeit für einen Ausflug nach Mexiko! Und so viel ist sicher: Unser kreatives Gericht ist geschmacklich echt eine Fiesta. Das Wort 'Fiesta' ist übrigens spanisch und bedeutet 'Fest'. Wir hoffen, dass auch Du und Deine Lieben in gute Stimmung kommt, sobald ihr unser farbenfrohes Gericht auftischt.",
+            "difficulty_level": "Schwierig",
+            "subtitle": "Bohnen, scharfer Tomatensalsa und Limettendip",
+            "tags": [
+                [
+                    "Vegetarisch"
+                ]
+            ],
+            "title": "Enchiladas mit rauchiger Tomatensoße",
+            "total_time": "40 Minuten",
+            "work_time": "30 Minuten"
+        }
+    }
+]
+
+    [
+    {
+        "ingredients": {
+            "main_image": "https://www.hellofresh.de/recipes/bbq-burritos-mit-hackfleisch-6508195253d80a0362112f02",
+            "ingredients": [
+                [
+                    "gemischtes Hackfleisch",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29aed3fa192603728f4e-91a4166c.png",
+
+                    "Weizentortillas",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da292a796d73553a895e4f-91202737.png",
+
+                    "schwarze Bohnen",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da293f796d73553a895fbf-de4083ad.png",
+
+                    "BBQ-Soße",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2979d3fa192603728c3f-d129852a.png",
+
+                    "Gewürzmischung Hello Piri-Piri",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2976796d73553a8962d3-eb865f07.png",
+
+                    "Buttermilch-Zitronen-Dressing",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2924d3fa19260372875c-05fb7cc0.png",
+
+                    "Salatherz (Romana)",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da294ad3fa192603728976-aeafb14a.png",
+
+                    "Zwiebel",
+                    "Zwiebel",
+
+                    "Tomatenmark",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29b3b886d9ac2889dc21-15c1bb51.png",
+
+                    "Salz",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba15ceb160db9a3ae44f1-4656e7bb.png",
+
+                    "Pfeffer",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba170d57fa39a31ce3261-3f58cb37.png"
+                ]
+            ],
+            "linc": "https://www.hellofresh.de/recipes/couscous-mit-dukkah-gemuse-and-hirtenkase-thermomix-650819fe270f68660e1ac70b"
+        },
+        "nutrition_facts": {
+            "carbohydrates": "17.8g",
+            "energy_kJ": "4348kJ",
+            "energy_kcal": "1039kcal",
+            "protein": "20.1g",
+            "salt": "52.5g",
+            "saturates": "44g",
+            "sugar": "106.4g"
+        },
+        "recipe": {
+            "allergens": ["Weizen", "Sellerie", "Senf", "Eier", "Milch (einschließlich Laktose)"],
+            "description": "Ruck, zuck zubereitet! Mit unseren schnellen Lunch-Rezepten sparst Du mittags Zeit, ohne dabei auf abwechslungsreiche Mahlzeiten zu verzichten. In max. 20 Min. zauberst Du leckere Gerichte und genie\u00dft im Handumdrehen einen perfekten Lunch.",
+            "difficulty_level": "Einfach",
+            "subtitle": "schwarzen Bohnen, Salat und Buttermilchdressing",
+            "tags": [
+                [
+                    "High Protein",
+                    "Zeit Sparen"
+                ]
+            ],
+            "title": "BBQ Burritos mit Hackfleisch",
+            "total_time": "10 Minuten",
+            "work_time": "10 Minuten"
+        }
+    }
+]
+
+
+    [
+    {
+        "ingredients": {
+            "main_image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/HF_Y23_R25_W49_DE_R4594-4_Main_low-ecc31436.jpg",
+            "ingredients": [
+                [
+                    "Blumenkohl",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2923d3fa192603728747-6add8ab2.png",
+
+                    "würzige Dalsoße",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da298ab886d9ac2889d9b5-60830442.png",
+
+                    "Basmatireis",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da291ed3fa1926037286d7-ae531f54.png",
+
+                    "Kokosmilch",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29c3796d73553a8966fd-d50dd024.png",
+
+                    "Zwiebel",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29d1796d73553a8967c2-e8468d43.png",
+
+                    "Mandeln, gehobelt",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da28eeb886d9ac2889d054-91f4e0af.png",
+
+                    "Sriracha Sauce",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2959d3fa192603728a64-35613fdd.png",
+
+                    "Kokosraspeln",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da297db886d9ac2889d8ac-b0313544.png",
+
+                    "Gewürzmischung Hello Paprika",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2967b886d9ac2889d746-410a08ae.png",
+
+                    "Pfeffer",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba170d57fa39a31ce3261-3f58cb37.png",
+
+                    "Salz",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba15ceb160db9a3ae44f1-4656e7bb.png",
+
+                    "Öl",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba157d57fa39a31ce3216-d2c7259f.png",
+
+                    "Wasser",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5568422afd2cb984278b4568-ec14d809.png"
+                ]
+            ],
+            "linc": "https://www.hellofresh.de/recipes/couscous-mit-dukkah-gemuse-and-hirtenkase-thermomix-650819fe270f68660e1ac70b"
+        },
+        "nutrition_facts": {
+            "carbohydrates": "22.3g",
+            "energy_kJ": "3406kJ",
+            "energy_kcal": "814kcal",
+            "protein": "14.7g",
+            "salt": "18.6g",
+            "saturates": "47g",
+            "sugar": "79g"
+        },
+        "recipe": {
+            "allergens": ["Sellerie", "Mandeln"],
+            "description": "Für alle, die es frisch und bunt lieben: Mit mehr als 240 g Gemüse pro Portion ist dieses Gericht ein leckerer, ausgewogener Genuss. Guten Appetit!",
+            "difficulty_level": "Einfach",
+            "subtitle": "dazu Kokos-Mandel-Reis",
+            "tags": [
+                [
+                    "Ohne Weizen",
+                    "Vegan",
+                    "Ohne Milchprodukte",
+                    "Viel Gemüse"
+                ]
+            ],
+            "title": "Scharfer Sriracha-Blumenkohl mit Dalsoße",
+            "total_time": "30 Minuten",
+            "work_time": "15 Minuten"
+        }
+    }
+]
+
+
+
+    [
+    {
+        "ingredients": {
+            "main_image": "https://www.hellofresh.de/recipes/balsamico-linsen-salat-mit-hahnchenbrust-64df2a75552e10127649f25f",
+            "ingredients": [
+                [
+                    "Hühnchenbrustfilet in Lake",
+
+                    "braune Linsen",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29d0796d73553a8967bc-78d81222.png",
+
+                    "Avocado",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2933b886d9ac2889d472-62bb0b86.png",
+
+                    "Rucola",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2936796d73553a895f18-aa502611.png",
+
+                    "Radieschen",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29c7796d73553a896732-32deb021.png",
+
+                    "Frühlingszwiebel",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2958b886d9ac2889d691-f67e1a62.png",
+
+                    "Naturjoghurt",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da297cb886d9ac2889d892-15e37d2a.png",
+
+                    "Pflaumenmus",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29df796d73553a89687b-d27cc0da.png",
+
+                    "süer Senf",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2977b886d9ac2889d842-d70be113.png",
+
+                    "Gewürzmischung Hello Mezze",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2926d3fa192603728777-e36ed1a6.png",
+
+                    "Salz",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba15ceb160db9a3ae44f1-4656e7bb.png",
+
+                    "Pfeffer",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba170d57fa39a31ce3261-3f58cb37.png",
+
+                    "Olivenöl",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba17beb160db9a3ae4598-e2b95464.png",
+
+                    "Balsamicoessig",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba17aeb160db9a3ae4586-5ece4e92.png"
+                ]
+            ],
+            "linc": "https://www.hellofresh.de/recipes/couscous-mit-dukkah-gemuse-and-hirtenkase-thermomix-650819fe270f68660e1ac70b"
+        },
+        "nutrition_facts": {
+            "carbohydrates": "6g",
+            "energy_kJ": "2273kJ",
+            "energy_kcal": "543kcal",
+            "protein": "11.8g",
+            "salt": "41.6g",
+            "saturates": "28.5g",
+            "sugar": "26.1g"
+        },
+        "recipe": {
+            "allergens": ["Milch (einschließlich Laktose)", "Senf"],
+            "description": "Deine Extraportion Eiweiß für starke Muskeln: Entdecke dieses leckere High Protein Gericht mit mindestens 20% Protein.",
+            "difficulty_level": "Mittel",
+            "subtitle": "Avocado und Pflaumendressing",
+            "tags": [
+                [
+                    "High Protein",
+                    "unter 650 Kalorien",
+                    "Ohne Weizen",
+                    "Low Carb"
+                ]
+            ],
+            "title": "Balsamico-Linsen-Salat mit Hühnchenbrust",
+            "total_time": "25 Minuten",
+            "work_time": "25 Minuten"
+        }
+    }
+]
+
+
+    [
+    {
+        "ingredients": {
+            "main_image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/afrikanischer-erdnusseintopf-mit-borlottibohnen-54e11c1f.jpg",
+            "ingredients": [
+                [
+                    "Borlotti Bohnen",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/57d82b82d804b535138b4567-52fcfe66.png",
+
+                    "Erdnussbutter",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/555343affd2cb990798b4568.png",
+
+                    "Jasminreis",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554b1f6efd2cb99c598b4575.png",
+
+                    "stückige Tomaten",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/5568324ffd2cb9d8268b456a.png",
+
+                    "Karotte",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554b23dff8b25ef53e8b456f.png",
+
+                    "Ingwer",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554b7f33fd2cb96c628b456a.png",
+
+                    "gelbe Paprika",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554b343a4dab71aa058b4572.png",
+
+                    "Gemüsebrühe",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/58da10324f78db45e7284f92-1e7088f5.png",
+
+                    "grüne Chilischote",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554b7eed4dab71150d8b456f.png",
+
+                    "Frühlingszwiebel",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554b27e6fd2cb983608b4569.png",
+
+                    "Erdnüsse",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/556edad9f8b25ed4068b4567.png",
+
+                    "Knoblauchzehe",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/567270cdf8b25e663f8b4567.png",
+
+                    "Paprikapulver, geräuchert",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/569faa14fd2cb9202f8b4568.png",
+
+                    "rote Zwiebel",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/554b2abcf8b25eef3e8b4573.png",
+
+                    "Mangold",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/image/56efafb2f8b25ec0698b4569.png",
+
+                    "Wasser",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5568422afd2cb984278b4568-ec14d809.png",
+
+                    "Öl",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554b1bf6f8b25eef3e8b4570-4aaff489.png",
+
+                    "Pfeffer",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/55b0a135fd2cb9121e8b4567-c2559bc5.png",
+
+                    "Salz",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554b1c284dab71a9058b456b-01588a3a.png",
+
+                    "Zucker",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/554b2319fd2cb9ba598b456d-c9310f76.png"
+                ]
+            ],
+            "linc": "https://www.hellofresh.de/recipes/couscous-mit-dukkah-gemuse-and-hirtenkase-thermomix-650819fe270f68660e1ac70b"
+        },
+        "nutrition_facts": {
+            "carbohydrates": "4g",
+            "energy_kJ": "846kcal",
+            "energy_kcal": "3538kJ",
+            "protein": "18g",
+            "salt": "35g",
+            "saturates": "29g",
+            "sugar": "102g"
+        },
+        "recipe": {
+            "allergens": ["Erdnüsse", "Sellerie"],
+            "description": "Mhhm... Erdnuss-Fans kommen hier voll auf ihre Kosten. Es erwartet Dich eine Komposition aus knackig, nussig, leicht scharf und lecker, die Du Dir nicht entgehen lassen solltest! Guten Appetit!",
+            "difficulty_level": "Einfach",
+            "subtitle": "Jasminreis und Mangold",
+            "tags": [
+                [
+                    "Erdnüsse",
+                    "Sellerie"
+                ]
+            ],
+            "title": "Afrikanischer Erdnusseintopf mit Borlottibohnen",
+            "total_time": "35 Minuten",
+            "work_time": "35 Minuten"
+        }
+    }
+]
+
+
+
+
+
+
+
+]

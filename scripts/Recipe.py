@@ -1,16 +1,15 @@
+
+
 class Recipe:
-    def __init__(self, image, title, subtitle, description, instructions, total_time, work_time, severity):
-        self.image = image
+    def __init__(self, title, subtitle, description, total_time, work_time, difficulty_level):
         self.title = title
         self.subtitle = subtitle
         self.description = description
-        self.instructions = instructions
         self.total_time = total_time
         self.work_time = work_time
-        self.severity = severity
+        self.difficulty_level = difficulty_level
         self.tags = []
         self.allergens = []
-
 
 
 

@@ -79,11 +79,13 @@ public class SuggestionService implements SuggestionUseCase, InitialSuggestionUs
         List<IngredientPreferenceEntity> preferenceIngredient = recipePort.getPreferenceIngredient(user);
 
         RecipeEntity result = null;
-        int highestScore = 0;
+        int highestScore = -1;
         ModelStrategy model = userModelService.getModel(userPort.getUserModel(user),
                 preferenceRecipe,
                 preferenceIngredient,
                 alreadySelected);
+
+        System.out.println(preSelected.size());
 
         for (RecipeEntity recipeResponse : preSelected) {
             // ignore already selected
@@ -95,6 +97,8 @@ public class SuggestionService implements SuggestionUseCase, InitialSuggestionUs
             }
         }
 
+
+        System.out.println(result);
         return result;
     }
 
