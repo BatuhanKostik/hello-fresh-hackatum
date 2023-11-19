@@ -1,6 +1,7 @@
 package de.tum.hackatum.hellofresh.persistence.food.recipe;
 
 import de.tum.hackatum.hellofresh.persistence.food.ingredient.IngredientEntity;
+import de.tum.hackatum.hellofresh.persistence.food.relationship.RegionEntity;
 import de.tum.hackatum.hellofresh.persistence.user.UserDetailsEntity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -35,5 +36,12 @@ public class RecipeEntity {
     )
     private Set<IngredientEntity> ingredients;
 
+    @OneToOne
+    private RegionEntity regionEntity;
+
+    private float kcal;
+    private float fat;
+    private float carbs;
+    private float protein;
 
 }

@@ -33,5 +33,9 @@ public class UserDetailsPersistenceAdapter implements UserPort {
         return userDetailsRepository.findByUsername(username).isPresent();
     }
 
+    @Override
+    public String getUserModel(UserDetails userDetails) {
+        return "Athlete";
+    }
 
 }

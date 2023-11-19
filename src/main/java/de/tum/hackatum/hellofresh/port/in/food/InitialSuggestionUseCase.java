@@ -1,6 +1,6 @@
-package de.tum.hackatum.hellofresh.port.in.suggestion;
+package de.tum.hackatum.hellofresh.port.in.food;
 
-import de.tum.hackatum.hellofresh.web.suggestion.IngredientResult;
+import de.tum.hackatum.hellofresh.web.food.IngredientResult;
 
 import java.util.List;
 

@@ -33,14 +33,6 @@ public class SecurityConfiguration {
     private final LogoutHandler logoutHandler;
     private final String[] publicAccessibleRequests;
 
-    /**
-     * Constructs a SecurityConfiguration instance with the specified dependencies and public accessible requests.
-     *
-     * @param jwtAuthFilter            the JwtAuthenticationFilter used for token-based authentication
-     * @param authenticationProvider   the AuthenticationProvider used for authentication
-     * @param logoutHandler            the LogoutHandler used for handling logout requests
-     * @param publicAccessibleRequests the list of public accessible request paths
-     */
     public SecurityConfiguration(
             JwtAuthenticationFilter jwtAuthFilter,
             AuthenticationProvider authenticationProvider,
@@ -53,13 +45,6 @@ public class SecurityConfiguration {
         this.publicAccessibleRequests = publicAccessibleRequests.toArray(new String[0]);
     }
 
-    /**
-     * Configures the security filter chain and defines the security rules for the application.
-     *
-     * @param http the HttpSecurity object to be configured
-     * @return the configured SecurityFilterChain
-     * @throws Exception if an error occurs during configuration
-     */
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http, MvcRequestMatcher.Builder mvc) throws Exception {
         http
@@ -68,8 +53,9 @@ public class SecurityConfiguration {
                         authorizeHttpRequests -> authorizeHttpRequests
                                 .dispatcherTypeMatchers(FORWARD, ERROR).permitAll()
                                 .requestMatchers(mvc.pattern("/api/v1/auth/register")).permitAll()
-                                .requestMatchers(mvc.pattern("/*")).permitAll()
-                                .anyRequest().authenticated()
+                                .requestMatchers(mvc.pattern("/h2-console")).permitAll()
+                                .requestMatchers(mvc.pattern("/v3/api-docs")).permitAll()
+                               // .anyRequest().authenticated()
                 )
                 .sessionManagement(
                         sessionManagement ->
