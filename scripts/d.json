@@ -1,94 +1,76 @@
 [
     {
         "ingredients": {
-            "main_image": "https://www.hellofresh.de/recipes/enchiladas-mit-rauchiger-tomatensosse-64e888ee4e40d5c6cb1a65fe",
+            "main_image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/HF_Y23_R25_W49_DE_R4594-4_Main_low-ecc31436.jpg",
             "ingredients": [
                 [
-                    "Weizentortillas",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da292a796d73553a895e4f-91202737.png",
+                    "Blumenkohl",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2923d3fa192603728747-6add8ab2.png",
 
-                    "rote Spitzpaprika",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29c5b886d9ac2889dd3c-4e5bbcf1.png",
+                    "würzige Dalsoße",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da298ab886d9ac2889d9b5-60830442.png",
 
-                    "würziger Gouda, gerieben",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29cfd3fa192603729140-1ca69777.png",
+                    "Basmatireis",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da291ed3fa1926037286d7-ae531f54.png",
 
-                    "Tomatenmark",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29b3b886d9ac2889dc21-15c1bb51.png",
+                    "Kokosmilch",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29c3796d73553a8966fd-d50dd024.png",
 
-                    "Limette, gewachst",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2984796d73553a8963d5-c9c0eb64.png",
+                    "Zwiebel",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29d1796d73553a8967c2-e8468d43.png",
 
-                    "saure Sahne",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2917d3fa192603728655-69ece38b.png",
+                    "Mandeln, gehobelt",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da28eeb886d9ac2889d054-91f4e0af.png",
 
-                    "Früchlingszwiebel",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2958b886d9ac2889d691-f67e1a62.png",
+                    "Sriracha Sauce",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2959d3fa192603728a64-35613fdd.png",
 
-                    "rote Chilischote",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2965796d73553a8961dd-bccbec57.png",
+                    "Kokosraspeln",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da297db886d9ac2889d8ac-b0313544.png",
 
-                    "Gewürzmischung Hello Smoky Paprika",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29e3b886d9ac2889deee-317afa65.png",
+                    "Gewürzmischung Hello Paprika",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2967b886d9ac2889d746-410a08ae.png",
 
-                    "Tomate",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da2956796d73553a8960f3-f3f361db.png",
-
-                    "schwarze Bohnen",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da293f796d73553a895fbf-de4083ad.png",
-
-                    "Gemüsebrühpulver",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da298bd3fa192603728d73-5b8b29b7.png",
-
-                    "Knoblauchzehe",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da29e1b886d9ac2889decd-1f443e2e.png",
-
-                    "Mais",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64da295b796d73553a896147-cdecdc88.png",
-
-                    "Öl",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba157d57fa39a31ce3216-d2c7259f.png",
-
-                    "Zucker",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba169f7724a92345a79e3-efa6cd2b.png",
+                    "Pfeffer",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba170d57fa39a31ce3261-3f58cb37.png",
 
                     "Salz",
                     "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba15ceb160db9a3ae44f1-4656e7bb.png",
 
+                    "Öl",
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba157d57fa39a31ce3216-d2c7259f.png",
+
                     "Wasser",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5568422afd2cb984278b4568-ec14d809.png",
-
-                    "Butter",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba160d57fa39a31ce3231-0de9838d.png",
-
-                    "Pfeffer",
-                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/64dba170d57fa39a31ce3261-3f58cb37.png"
+                    "https://img.hellofresh.com/w_96,q_auto,f_auto,c_limit,fl_lossy/hellofresh_s3/ingredient/5568422afd2cb984278b4568-ec14d809.png"
                 ]
             ],
             "linc": "https://www.hellofresh.de/recipes/couscous-mit-dukkah-gemuse-and-hirtenkase-thermomix-650819fe270f68660e1ac70b"
         },
         "nutrition_facts": {
-            "carbohydrates": "21.8g",
-            "energy_kJ": "4475kJ",
-            "energy_kcal": "1069kcal",
-            "protein": "35g",
-            "salt": "40.4g",
-            "saturates": "42.6g",
-            "sugar": "126.6g"
+            "carbohydrates": "22.3g",
+            "energy_kJ": "3406kJ",
+            "energy_kcal": "814kcal",
+            "protein": "14.7g",
+            "salt": "18.6g",
+            "saturates": "47g",
+            "sugar": "79g"
         },
         "recipe": {
-            "allergens": ["Weizen", "Milch (einschließlich Laktose)", "Senf", "Sellerie"],
-            "description": "Ay caramba, es ist Zeit für einen Ausflug nach Mexiko! Und so viel ist sicher: Unser kreatives Gericht ist geschmacklich echt eine Fiesta. Das Wort 'Fiesta' ist übrigens spanisch und bedeutet 'Fest'. Wir hoffen, dass auch Du und Deine Lieben in gute Stimmung kommt, sobald ihr unser farbenfrohes Gericht auftischt.",
-            "difficulty_level": "Schwierig",
-            "subtitle": "Bohnen, scharfer Tomatensalsa und Limettendip",
+            "allergens": ["Sellerie", "Mandeln"],
+            "description": "Für alle, die es frisch und bunt lieben: Mit mehr als 240 g Gemüse pro Portion ist dieses Gericht ein leckerer, ausgewogener Genuss. Guten Appetit!",
+            "difficulty_level": "Einfach",
+            "subtitle": "dazu Kokos-Mandel-Reis",
             "tags": [
                 [
-                    "Vegetarisch"
+                    "Ohne Weizen",
+                    "Vegan",
+                    "Ohne Milchprodukte",
+                    "Viel Gemüse"
                 ]
             ],
-            "title": "Enchiladas mit rauchiger Tomatensoße",
-            "total_time": "40 Minuten",
-            "work_time": "30 Minuten"
+            "title": "Scharfer Sriracha-Blumenkohl mit Dalsoße",
+            "total_time": "30 Minuten",
+            "work_time": "15 Minuten"
         }
     }
 ]

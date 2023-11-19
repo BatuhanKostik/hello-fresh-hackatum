@@ -12,7 +12,7 @@ class Website:
     def to_json(self):
         return json.dumps(self, default=lambda o: o.__dict__, sort_keys=True, indent=4)
 
-l = ["https://www.hellofresh.de/recipes/enchiladas-mit-rauchiger-tomatensosse-64e888ee4e40d5c6cb1a65fe"]
+l = ["https://www.hellofresh.de/recipes/scharfer-sriracha-blumenkohl-mit-dalsosse-64fed00c333d6f05dac363b5"]
 
 result = []
 
