@@ -1,0 +1,37 @@
+
+[
+    {
+        "ingredients": {
+            "ingredients": [
+                [
+                    "Weizentortillas",
+                    "ger\u00e4ucherter Tofu",
+                    "Mango",
+                    "rote Spitzpaprika",
+                    "rote Zwiebel",
+                    "Gew\u00fcrzmischung \u201eHello Harissa\u201c",
+                    "Sojaso\u00dfe",
+                    "vegane Mayonnaise",
+                    "Knoblauchzehe",
+                    "Oliven\u00f6l",
+                    "Salz",
+                    "Zucker",
+                    "Wei\u00dfweinessig",
+                    "Pfeffer",
+                    "\u00d6l"
+                ]
+            ],
+            "linc": "https://www.hellofresh.de/recipes/couscous-mit-dukkah-gemuse-and-hirtenkase-thermomix-650819fe270f68660e1ac70b"
+        },
+        "nutrition_facts": {
+            "carbohydrates": "6.2g",
+            "energy_kJ": "3675kJ",
+            "energy_kcal": "878kcal",
+            "protein": "32.3g",
+            "salt": "30.1g",
+            "saturates": "44.5g",
+            "sugar": "85.9g"
+        },
+        "recipe": null
+    }
+]
