@@ -25,6 +25,7 @@ public class RecipeEntity {
     private long id;
     private String name;
     private String link;
+    private String content;
     private int workingTimeSeconds;
     private int workingTimeTotalSeconds;
 
